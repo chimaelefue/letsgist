@@ -1,0 +1,15 @@
+.defaultPage {
+    top: 0;
+    left: 410px; 
+    height: 100vh !important;
+    flex: 1;
+    background-color: rgb(3, 70, 79);
+} 
+
+.firstDisplay{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* margin: 180px; */
+    
+}

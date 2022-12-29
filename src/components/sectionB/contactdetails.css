@@ -1,0 +1,64 @@
+.contactDetails{
+    background-color: #0a1014;
+    width: 410px;
+    height: 100vh;
+    padding: 2px 0;
+    top: 0;
+    right: 0;
+    border-left: 1px solid #423e3e;
+    /* display: none; */
+    transition: 0.5s;
+}
+.closeBtn{
+    font-size: 24px;
+    background-color:#0a1014 ;
+    color: white;
+    right: 10px;
+    border: none;
+    position: absolute;
+    padding-right: 20px;
+    padding-top: 2px;
+    cursor:pointer;
+}
+
+.infoBar{
+    margin-top: 25px;
+}
+
+.detailsImg{
+    padding-top: 50px;
+}
+
+.infoBar img{
+    
+    margin: 0 auto;
+    display: block;
+    width: 8rem;
+    border-radius: 50%;
+    height: 8rem;
+ 
+}
+
+.detailsText{
+    padding: 2px;
+    margin: 50px;
+    text-align: center;
+    border: 300px;
+    display: block;
+}
+
+.userName{
+    font-size:2rem ;
+    font-weight: 600;
+    color:#423e3e;
+    top: 20px;
+}
+
+.userNumber{
+    
+    font-weight: 600;
+    color:#423e3e;
+}
+
+
+

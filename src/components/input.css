@@ -1,0 +1,54 @@
+.inputMsg {
+    background-color: #0a1014;
+    border-left: 1px solid #423e3e;
+    height: 80px;
+    padding: 0 20px 2px 20px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#userInput {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color:#423e3e;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    width: calc(89% - 20px);
+    font-size: 16px;
+}
+
+.btn  {
+    position: absolute;
+    top: 10px;
+    font-size: 24px;
+    background-color:#0a1014 ;
+    color: white;
+    right: 0;
+    border: none;
+    height: 50px;
+    /* line-height: 50px; */
+    
+    padding-right: 50px;
+    cursor:pointer;
+}
+
+.btnShow{
+    position: absolute;
+    top: 10px;
+    font-size: 24px;
+    background-color:#0a1014 ;
+    color: white;
+    right: 0;
+    border: none;
+    height: 50px;
+    /* line-height: 50px; */
+    
+    padding-right: 10px;
+    cursor:pointer;
+}

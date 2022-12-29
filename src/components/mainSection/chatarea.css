@@ -1,0 +1,10 @@
+.mainPage{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+    flex-direction: column;
+   
+    
+}

@@ -1,0 +1,8 @@
+.containerMainPage{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 100vh;
+    margin: 0;
+    padding: 0px;
+}

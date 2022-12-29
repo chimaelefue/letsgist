@@ -1,0 +1,74 @@
+
+.chatBar{
+    height: 60px;
+   
+    background-color: #0a1014;
+    display: flex;
+   justify-content: space-between;
+   
+}
+
+.chatBar p{
+    margin: 0;
+    float: right;
+    margin-left: 20px;
+    color: white;
+    margin-top: 5px;
+}
+
+.backArrow{
+    float: left;
+    height: 60px;
+    line-height: 60px;
+   
+    display: none;
+}
+
+.backBtn{
+    display: inline-block;
+    margin: 0 2px 0 5px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    background-color:#0a1014 ;
+    border: none;
+}
+
+.contactInfo{
+    display: flex;
+    padding: 5px;
+    cursor:pointer;
+    top: 10;
+}
+
+.img img{
+    margin: 2px;
+    display: block;
+    width: 2.5rem;
+    border-radius: 50%;
+    height: 2.5rem;
+    
+}
+
+.contactInfo .contactName{
+    font-size: 16px;
+    height: 2.5rem;
+    margin-top: 15px; 
+ 
+}
+
+#chatOptions {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 10px;
+    display: flex;
+}
+
+#chatOptions li {
+    display: inline-block;
+    margin: 0 15px 0 15px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}

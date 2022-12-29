@@ -1,0 +1,73 @@
+.container{
+    background-color: #0a1014;
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    padding: 20px 8px;
+    height: 100vh;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 1rem;
+    height: 10%;
+    padding: 2px 0px;
+}
+
+.avatarImg img{
+    margin: 0 auto;
+    display: block;
+    width: 2.5rem;
+    border-radius: 50%;
+    height: 2.5rem;
+}
+
+.avatarName{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+h3{
+    font-size:2 rem ;
+    font-weight: 600;
+}
+.contactList{
+    overflow-y: scroll;
+    transition: all 0.5s ease-in;
+    height: 90vh
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 72px;
+    border-top: 1.5px solid #423e3e;
+    position: relative;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+
+.img img{
+    margin: 0 auto;
+    display: block;
+    width: 2.5rem;
+    border-radius: 50%;
+    height: 2.5rem;
+}
+
+.contactText{
+    border: 300px;
+}
+
+.contact:last-child {
+    border-bottom: 1px solid #423e3e;
+}
+.contact:hover{
+    background-color: #423e3e;
+}
